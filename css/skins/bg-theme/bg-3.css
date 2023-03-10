@@ -1,0 +1,10 @@
+:root
+{
+    --bg-color: linear-gradient(to right, #ff0000, #b1b1b1);
+    --bg-aside: linear-gradient(to right, #b1b1b1 , #ff0000);
+}
+body.dark
+{
+    --bg-color: linear-gradient(to right, #ca0000, #000);
+    --bg-aside: linear-gradient(to right, #070707 , #ca0000);
+}

@@ -1,0 +1,92 @@
+.bg-switcher
+{
+    position: fixed;
+    right: 0;
+    bottom: 10px;
+    padding:10px;
+    width: 200px;
+    border: 1px solid var(--bg-black-50);
+    background: var(--bg-color);
+    z-index: 101;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    transform: translateX(100%);
+    color:var(--text-black-700);
+    
+}
+.bg-switcher.open
+{
+    transform: translateY(-25px);
+}
+.bg-switcher .s-icon
+{
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    font-size: 20px;
+    background-color: var(--bg-black-50);
+    color: var(--text-black-900);
+    right: 100%;
+    border: 1px solid var(--skin-color);
+    margin: -13px 15px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border-radius: 50%;
+    margin-right: 30px;
+    margin-top: 10px;
+}
+.bg-switcher .s-icon i
+{
+    line-height: 40px;
+}
+.bg-switcher .bg-switcher.toggler
+{
+    top: 10px;
+    
+}
+
+.bg-switcher h4
+{
+    margin: 0 0 10px;
+    color: var(--text-black-700);
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.bg-switcher .bg
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    cursor:pointer;
+    
+}
+.bg-switcher .bg span
+{
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    
+}
+.bg-switcher .bg-1
+{
+    background: #ff6600;
+}
+.bg-switcher .bg-2
+{
+    background: #00ccff;
+}
+.bg-switcher .bg-3
+{
+    background: #ff0000;
+}
+.bg-switcher .bg-4
+{
+    background: #1eff00;
+}
+.bg-switcher .bg-5
+{
+    background: #ffee00;
+}
